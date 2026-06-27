@@ -1,0 +1,91 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+*{
+            padding:0;
+            margin: 0;
+        }
+        .pro{
+            width:100%;
+            height: auto;
+        }
+        .pro .nav .ul{
+            display:flex;
+            position:fixed;
+            background-color: white;
+            justify-content: space-evenly;
+           padding-top: 20px;   
+            padding-bottom: 20px;    
+            width: 100%;
+            top: 0;
+     }
+        .nav .ul img{
+            width: 3%;
+            
+        }
+        .image{
+           height:100vh;
+           width: 100%;
+            background-image: url("./redcar.jpg"); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            /* position: sticky; */
+            padding-top: 200px;
+        }
+        .box span{
+            font-size: 30px;
+            font-weight: bolder;
+
+        }
+    
+        .image .box{
+            /* color:red;
+            position:absolute;
+           padding-top: 200px;
+           padding-left: 50px;
+           border: 2px solid gray;
+           top */
+            text-align: left;
+            padding-left: 50px;
+            padding-bottom: 30px;
+            color: white;
+            /* padding:0px 0px 30px 0px; */
+            max-width: 350px;
+            line-height: 20px;
+            margin:0px 0px 0px 100px;
+            background-color:rgb(0 0 0 / 50%);
+               
+        }
+        .image .box button{
+            width:50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(37, 130, 167);
+            border: none;
+            color:white;
+        }
+        .cs h1{
+            font-weight: 700px;
+            text-align: center;
+        }
+        .cs h3{
+            text-align: center;
+            font-weight: 200px;
+        }
+        .cs p{
+            font-family:"Poppins", sans-serif;
+            font-weight:300;
+            font-size: 20px;
+            word-spacing:5px ;
+           text-align-last: center;
+        }
+        .car{
+            width:100%;
+            display:flex;
+            flex-direction: row;
+        }
+        .car .c{
+            width:25%;
+            text-align: center;
+        }
